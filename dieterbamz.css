@@ -1,30 +1,34 @@
 /* SWATCHES ---------------------------------------------------------------------- */
 
+span.cm-bracket		{ color: #a3401f; }
 span.cm-builtin     { color: #a3401f; }
-span.cm-keyword		{ color: #a3401f; }
-span.cm-link		{ color: #a3401f; }
 span.cm-qualifier	{ color: #a3401f; }
-span.cm-string		{ color: #a3401f; }
-span.cm-string-2    { color: #a3401f; }
+span.cm-tag			{ color: #a3401f; }
 
-span.cm-attribute	{ color: #111111; }
-span.cm-def			{ color: #111111; }
-span.cm-header      { color: #111111; }
-span.cm-operator	{ color: #111111; }
-span.cm-property	{ color: #111111; }
+span.cm-attribute	{ color: #000000; }
+span.cm-def			{ color: #000000; }
+span.cm-header      { color: #000000; }
+span.cm-keyword		{ color: #000000; }
+span.cm-operator	{ color: #000000; }
 
-span.cm-atom		{ color: #656569; }
-span.cm-number		{ color: #656569; }
-span.cm-variable	{ color: #656569; }
-span.cm-variable-2	{ color: #656569; }
-span.cm-variable-3	{ color: #656569; }
+span.cm-meta		{ color: #4d4d4d; }
+span.cm-property	{ color: #4d4d4d; }
 
-span.cm-comment		{ color: #aeb3be; }
+span.cm-atom		{ color: #ff8000; }
+span.cm-number		{ color: #ff8000; }
+
+span.cm-variable	{ color: #ff4500; }
+span.cm-variable-2	{ color: #ff4500; }
+span.cm-variable-3	{ color: #ff4500; }
+
+span.cm-link		{ color: #0074b1; }
+span.cm-string		{ color: #0074b1; }
+span.cm-string-2    { color: #0074b1; }
+
+span.cm-comment		{ color: #9699a0; }
 span.cm-error		{ color: #ff0076; }
 
-span.cm-bracket		{ color: #c27156; }
-span.cm-meta		{ color: #c27156; }
-span.cm-tag			{ color: #c27156; }
+
 
 
 
@@ -34,7 +38,7 @@ span.cm-tag			{ color: #c27156; }
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
 	background: #fff;
-	color: #656569;
+	color: #4d4d4d;
 }
 
 .CodeMirror-cursor {
@@ -63,13 +67,13 @@ span.cm-tag			{ color: #c27156; }
 
 .CodeMirror-matchingbracket {
     background: transparent !important;
-	border-bottom: 2px solid #c27156 !important;
+	border-bottom: 2px solid #ff8000 !important;
     color: #656569 !important;
 }
 
 .CodeMirror-matchingtag {
     background: transparent !important;
-	border-bottom: 2px solid #c27156 !important;
+	border-bottom: 2px solid #ff8000 !important;
 }
 
 /* Active Line */
@@ -79,7 +83,7 @@ span.cm-tag			{ color: #c27156; }
 }
 
 .CodeMirror-activeline-background {
-	background: #f4f2ed !important;
+	background: #edf4f7 !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
