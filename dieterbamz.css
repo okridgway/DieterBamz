@@ -6,6 +6,7 @@ span.cm-qualifier	{ color: #a3401f; }
 span.cm-string		{ color: #a3401f; }
 span.cm-string-2    { color: #a3401f; }
 
+span.cm-attribute	{ color: #111111; }
 span.cm-def			{ color: #111111; }
 span.cm-header      { color: #111111; }
 span.cm-keyword		{ color: #111111; }
@@ -13,7 +14,6 @@ span.cm-operator	{ color: #111111; }
 span.cm-property	{ color: #111111; }
 
 span.cm-atom		{ color: #656569; }
-span.cm-attribute	{ color: #656569; }
 span.cm-number		{ color: #656569; }
 span.cm-variable	{ color: #656569; }
 span.cm-variable-2	{ color: #656569; }
