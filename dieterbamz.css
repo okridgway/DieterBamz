@@ -1,0 +1,92 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #a3401f; }
+span.cm-link		{ color: #a3401f; }
+span.cm-qualifier	{ color: #a3401f; }
+span.cm-string		{ color: #a3401f; }
+span.cm-string-2    { color: #a3401f; }
+
+span.cm-def			{ color: #111111; }
+span.cm-header      { color: #111111; }
+span.cm-keyword		{ color: #111111; }
+span.cm-operator	{ color: #111111; }
+span.cm-property	{ color: #111111; }
+
+span.cm-atom		{ color: #656569; }
+span.cm-attribute	{ color: #656569; }
+span.cm-number		{ color: #656569; }
+span.cm-variable	{ color: #656569; }
+span.cm-variable-2	{ color: #656569; }
+span.cm-variable-3	{ color: #656569; }
+
+span.cm-comment		{ color: #aeb3be; }
+span.cm-error		{ color: #ff0076; }
+
+span.cm-bracket		{ color: #c27156; }
+span.cm-meta		{ color: #c27156; }
+span.cm-tag			{ color: #c27156; }
+
+
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+	background: #fff;
+	color: #656569;
+}
+
+.CodeMirror-cursor {
+	border-left: 2px solid #222 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 2px solid #222 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #fff;
+	border-right: 0;
+}
+
+.CodeMirror-linenumber {
+	color: #aeb3be;
+}
+
+.CodeMirror-selected {
+	background: #ffddc4 !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 2px solid #c27156 !important;
+    color: #656569 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 2px solid #c27156 !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff0076 !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #f4f2ed !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #c27156;
+	background-color: #efe9e3 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #656569;
+}
