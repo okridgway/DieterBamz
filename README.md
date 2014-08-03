@@ -1,7 +1,7 @@
 Dieter Bamz Theme for Brackets
 ============================
 
-Inspired by Snow White's Coffin.
+Inspired by Dieter Rams's Snow White's Coffin. A Brackets original.
 
 ## HTML
 ![HTML Screenshot](https://github.com/Brackets-Themes/DieterBamz/blob/master/screenshots/html.png)
