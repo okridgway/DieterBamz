@@ -1,5 +1,5 @@
 Dieter Bamz Theme for Brackets
-============================
+==============================
 
 Inspired by Dieter Rams's Snow White's Coffin. A Brackets original.
 
