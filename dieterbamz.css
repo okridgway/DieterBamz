@@ -38,11 +38,11 @@ span.cm-error		{ color: #ff0076; }
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #222 !important;
+	border-left: 1px solid #222 !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 2px solid #222 !important;
+    border-bottom: 1px solid #222 !important;
     border-left: none !important;
 }
 
