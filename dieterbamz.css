@@ -1,12 +1,12 @@
 /* SWATCHES ---------------------------------------------------------------------- */
 
 span.cm-bracket		{ color: #a3401f; }
-span.cm-builtin     { color: #a3401f; }
+span.cm-builtin     	{ color: #a3401f; }
 span.cm-qualifier	{ color: #a3401f; }
-span.cm-tag			{ color: #a3401f; }
+span.cm-tag		{ color: #a3401f; }
 
-span.cm-def			{ color: #000000; }
-span.cm-header      { color: #000000; }
+span.cm-def		{ color: #000000; }
+span.cm-header      	{ color: #000000; }
 span.cm-keyword		{ color: #000000; }
 span.cm-operator	{ color: #000000; }
 
@@ -25,7 +25,7 @@ span.cm-link		{ color: #0074b1; }
 span.cm-string		{ color: #0074b1; }
 span.cm-string-2    { color: #0074b1; }
 
-span.cm-comment		{ color: #9699a0; }
+span.cm-comment		{ color: #080808; }
 span.cm-error		{ color: #ff0076; }
 
 
@@ -82,7 +82,7 @@ span.cm-error		{ color: #ff0076; }
 }
 
 .CodeMirror-activeline-background {
-	background: #edf4f7 !important;
+	/*background: #edf4f7 !important;*/
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
